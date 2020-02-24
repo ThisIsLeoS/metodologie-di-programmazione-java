@@ -1,0 +1,45 @@
+#main {
+	display: flex;
+	height: calc(100% - 60px);
+	justify-content: center;
+	align-items: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.word-container {
+	font-size: 22px;
+}
+
+.hyperonym-container {
+	padding-top: 5px;
+}
+
+.word-and-hyp-container {
+	display: flex;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+textarea {
+	margin-top: 5px;
+	width: 430px;
+    height: 80px;
+}
+
+.skip-and-next-btns-container {
+	display: flex;
+    width: 138px;
+    margin-top: 18px;
+    justify-content: space-between;
+}
+

@@ -1,0 +1,32 @@
+#main {
+	display: flex;
+	height: calc(100% - 60px);
+	justify-content: center;
+	align-items: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.definition-container {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 16px;
+}
+
+input {
+	margin-top: 5px;
+}
+
+.skip-and-next-btns-container {
+	display: flex;
+    width: 138px;
+    margin-top: 18px;
+    justify-content: space-between;
+}
+

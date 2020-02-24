@@ -1,0 +1,44 @@
+#main {
+	display: flex;
+	height: calc(100% - 60px);
+	justify-content: center;
+	align-items: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.word-container {
+	font-style: italic;
+	font-weight: bold;
+}
+
+.checkboxes-container {
+	display: flex;
+	flex-direction: column;
+	margin-top: 15px;
+	justify-content: center;
+	align-items: center;
+}
+
+.checkboxes-container label {
+	margin-left: 8px;
+}
+
+.skip-and-next-btns-container {
+	display: flex;
+    width: 141px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.err-msg-container {
+	margin-top: 15px;
+    color: red;
+}
+
+

@@ -1,0 +1,34 @@
+#main {
+	display: flex;
+	height: calc(100% - 60px);
+	justify-content: center;
+	align-items: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.words-inputs-container {
+	margin-top: 10px;	
+}
+
+.word-input-container {
+	display: flex;
+	margin-top: 10px;
+	justify-content: center;
+}
+
+.word-input-container > input {
+	margin-left: 10px;
+}
+
+.skip-and-next-btns-container {
+	display: flex;
+    width: 138px;
+    margin-top: 18px;
+    justify-content: space-between;
+}

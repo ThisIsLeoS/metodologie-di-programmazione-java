@@ -1,0 +1,45 @@
+/* regole di reset */
+.btn-primary.focus, .btn-primary:focus {
+	
+	/* sovrascrive il CSS di bootstrap */
+    box-shadow: none;
+}
+
+.btn.focus, .btn:focus {
+	
+    /* sovrascrive il CSS di bootstrap */
+    box-shadow: none;
+}
+
+label {
+	
+	/* sovrascrive il CSS di bootstrap */
+	margin: 0;
+}
+
+p {
+	
+	/* sovrascrive il CSS di bootstrap */
+	margin-bottom: 0;
+}
+/* /regole di reset */
+
+html {
+
+    /* l'altezza è settata in percentuale in modo che anche l'altezza del <body> possa essere 
+    settata in percentuale */
+    height: 100%;
+
+    font-size: 16px;
+}
+
+body {
+	max-width: 1920px;
+	
+    /* l'altezza è settata in percentuale in modo che anche l'altezza dei figli del <body> possa 
+    essere settata in percentuale */
+    height: 100%;
+    
+    min-height: 450px;
+    font-family: sans-serif;
+}
