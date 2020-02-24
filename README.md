@@ -4,3 +4,5 @@ The objective of this course is to provide the fundamental concepts of the objec
 The language used is Java.
 
 You can find the projects specifications (in Italian) in the designated folders.
+
+For the final project I did the front-end part.
